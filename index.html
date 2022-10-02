@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproductor de Música</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <!--MAIN-->
+    <main class="player">
+        <!--TITULO-->
+        <h1 class="title" id="title"></h1>
+
+        <!--COVER : IMAGEN-->
+        <img src="img/img0.png" alt="" class="cover" id="cover">
+
+        <!--AUDIO HTML media Element-->
+        <audio src="" id="audio"></audio>
+
+
+        <!--PROGRESS BAR-->
+        <div id="progress-container" class="progress-container">
+            <section id="progress" class="progress"></section>
+        </div>
+
+        <!--CONTROLS-->
+        <section class="controls">
+            <!--BUTTON PREV-->
+            <button class="prev">
+                <i id="prev" class="fas fa-backward"></i>
+            </button>
+
+            <!--BUTTON PLAY-->
+            <button class="play">
+                <i id="play" class="fas fa-play"></i>
+            </button>
+
+            <!--BUTTON NEXT-->
+            <button class="next">
+                <i id="next" class="fas fa-forward"></i>
+            </button>
+        </section>
+
+        <!--SONG LIST-->
+        <ul class="songs" id="songs"> 
+            <!--<li><a href="#">Song 1</a></li>
+            <li ><a href="#" class="active">Song 2</a></li>
+            <li><a href="#">Song 3</a></li>-->
+        </ul>
+    </main>
+</body>
+</html>

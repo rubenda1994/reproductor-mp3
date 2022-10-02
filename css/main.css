@@ -1,0 +1,93 @@
+*{box-sizing: border-box;}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*PLAYER*/
+.player{
+    height: 470px;
+    min-width: 320px;
+    background-image: linear-gradient(black, rgb(66, 1, 66),rgba(255, 6, 6, 0.993));
+    border-radius: 1rem;
+    padding: 2rem;
+    color: white;
+    box-shadow: 3px 3px 4px black;
+}
+
+/*TITLE*/
+.title{
+    margin-top: 0;
+    text-align: center;
+}
+
+/*COVER*/
+.cover{
+    width: 140px;
+    height: 140px;
+    border-radius: 0.7rem;
+    display: block;
+    margin: 0 auto 1rem auto;
+}
+
+/*PROGRESS*/
+.progress-container{
+    margin: 1.5rem;
+    height: .25rem;
+    background-color: lightgray;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+}
+
+.progress{
+    background-color: blue;
+    width: 0;
+    height: 100%;
+    border-radius: 20rem;
+}
+
+/*CONTROLS*/
+.controls{
+    margin: 1.5rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.controls button{
+    background-color: transparent;
+    border: none;
+}
+
+.controls i{
+    font-size: 1rem;
+    color: white;
+}
+
+/*SONGS*/
+.songs{
+    margin: 1.7rem;
+    padding: 0;
+    list-style: none;
+}
+
+.songs li{
+    margin-bottom: 1rem;
+}
+
+.songs a{
+    color: lightgray;
+    text-decoration: none;
+}
+
+.songs a.active{
+    color: white;
+    font-weight: bold;
+}
